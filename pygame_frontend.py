@@ -1,10 +1,17 @@
 import pygame
 
 pygame.init()
-screen = pygame.display.set_mode((1920,1080))
+pygame.display.set_caption("Higher-Lower-Equal Card Game")
+pygame.mouse.set_visible(True)
 clock = pygame.time.Clock()
 running = True
 
+wood_bg = pygame.image.load("wood_bg.jpg")
+
 while running:
-  clock.tick(60)
+
+    ### Create a card interface
+    ### SET wood_bg as background
+    ### 
+    clock.tick(60)
 pygame.quit()
